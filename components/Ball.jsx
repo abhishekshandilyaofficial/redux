@@ -24,8 +24,8 @@ function Ball() {
     <>
         <h1>Balls</h1>
         <h2>No. of Balls {balls}</h2>
-        <button onClick={dispatch({type:"increment"})}>+</button>
-        <button onClick={dispatch({type:"decrement"})}>-</button>
+        <button onClick={() =>{dispatch({type:"increment"})}}>+</button>
+        <button onClick={() =>{dispatch({type:"decrement"})}}>-</button>
     </>
   )
 }
