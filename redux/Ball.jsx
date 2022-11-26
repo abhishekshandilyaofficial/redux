@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 
 
 function Ball(props) {
-  console.log(props);
   return (
     <>
         
