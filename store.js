@@ -1,5 +1,6 @@
 import {createStore} from "redux";
-import ballReducer from "./redux/ballReducer";
-import batReducer from "./redux/batReducer";
-const store = createStore(batReducer);
+import rootReducer from "./redux/rootReducer";
+//import ballReducer from "./redux/ballReducer";
+//import batReducer from "./redux/batReducer";
+const store = createStore(rootReducer);
 export default store;
