@@ -20,7 +20,7 @@ function Bat(props) {
 }
 
 const mapStateToProps = (store) =>{
-    return store;
+    return store.Bat;
 }
 
 const mapDispatchToProps = (dispatch) => {

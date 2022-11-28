@@ -19,7 +19,7 @@ function Ball(props) {
 }
 //To get your state variable from redux store we get mapStateToProps function
 const mapStateToProps = (store) => {
-    return store;
+    return store.Ball;
 }
 
 const mapDispatchtoProps = (dispatch) =>{
